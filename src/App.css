@@ -1,0 +1,21 @@
+
+.sf-logo{
+  margin: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sf-logo img{
+  height: 5rem;
+  width: auto;
+  z-index: -1;
+}
+
+.burger-class button{
+  margin-top: 5rem;
+}
+.burger-class nav{
+  z-index: 5;
+}
+

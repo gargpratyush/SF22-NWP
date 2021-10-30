@@ -1,0 +1,32 @@
+.landing-page{
+    background-image: url('./landing-page-bg-img.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hitch-hike-txt{
+    height: 7rem;
+    width: auto;
+    margin-top: 8rem;
+    margin-left: 6rem;
+}
+
+@media screen and (max-width: 768px){
+    .hitch-hike-txt{
+        height: 5rem;
+        width: auto;
+        margin-top: 10rem;
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .hitch-hike-txt{
+        width: 80%;
+        height: auto;
+        margin-top: 10rem;
+        margin-left: 4rem;
+    }
+}
